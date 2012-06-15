@@ -24,6 +24,6 @@ class Auth
   end
 
   def get_cookies
-    return @cookies
+    @cookies
   end
 end
