@@ -1,0 +1,8 @@
+#
+# Identify the repos by their names and email, password and wedoist project id.
+#
+
+repo_name:
+  email: foo@bar.com
+  password: secret
+  project: id
