@@ -9,7 +9,7 @@ get '/' do
   'Get github to POST to /listen'
 end
 
-get '/listen' do
+post '/listen' do
   payload = GHPayload.new(JSON.parse(params[:payload]))
 
   data = YAML.load_file('./config/config.yml')[payload.get_project]
