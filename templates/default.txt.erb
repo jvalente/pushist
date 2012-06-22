@@ -1,0 +1,5 @@
+===== <%= @project %> =====
+
+<% @commits.reverse.each do |c| %>
+  - <%= c['url'] %> (<%= c['message'] %>), by <%= c['author']['name'] %>
+<% end %>

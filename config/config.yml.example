@@ -1,8 +1,10 @@
 #
 # Identify the repos by their names and email, password and wedoist project id.
+# Identify a template for the message to be delivered if you want
 #
 
 repo_name:
   email: foo@bar.com
   password: secret
   project: id
+  template: default
