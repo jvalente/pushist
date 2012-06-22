@@ -12,7 +12,7 @@ end
 
 post '/listen' do
   # Parse github message
-  payload = GHPayload.new(JSON.parse(File.read('json')))
+  payload = GHPayload.new(JSON.parse(params[:payload]))
   
   # load configs based on the repo that received the push
   data = YAML.load_file('./config/config.yml')[payload.project]
