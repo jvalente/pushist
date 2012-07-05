@@ -33,7 +33,7 @@ Under the folder `templates/` you can add other templates to better suit your ne
 
 ![pushistexample](http://f.cl.ly/items/3m1h3l0B3o430T0U2P0c/Screen%20Shot%202012-07-05%20at%205.36.02%20PM.png)
 
-[Pushist avatar credits to Jason Costello :D](http://http://octodex.github.com/supportcat/)
+[Pushist avatar credits to Jason Costello :D](http://octodex.github.com/supportcat/)
 
 
 Contact
