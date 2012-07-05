@@ -17,8 +17,8 @@ Instalation
   
 
 3. Deploy the app (an example follows considering a deploy to heroku)
-    heroku create pushist --stack cedar   
-    git push heroku master
+        heroku create pushist --stack cedar
+        git push heroku master
 
 4. Add http://yourappdomain/listen as a WebHook URL to the github repos you want to track on Wedoist (Check: [Post-Receive Hooks](https://help.github.com/articles/post-receive-hooks))
 
@@ -27,7 +27,7 @@ Instalation
 Message Templates
 =======
 
-Under the folder `templates` you can add other templates to better suit your needs. This represent the format of the message that will be posted as a status update. The default template will produce something like this:
+Under the folder `templates/` you can add other templates to better suit your needs. This represent the format of the message that will be posted as a status update. The default template will produce something like this:
 
 ![pushistexample](http://f.cl.ly/items/3m1h3l0B3o430T0U2P0c/Screen%20Shot%202012-07-05%20at%205.36.02%20PM.png)[^1]
 
